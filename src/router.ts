@@ -9,7 +9,7 @@ import RegisterPage from "./views/pages/no-layout/RegisterPage.vue";
 import NoPermissionPage from "./views/pages/no-layout/NoPermissionPage.vue";
 import NotFoundPage from "./views/pages/no-layout/NotFoundPage.vue";
 import ArticlesPage from "./views/pages/vsbooks-layout/ArticlesPage.vue";
-import PcpLayout from "@/views/layouts/VSboooksLayout.vue";
+import VSboooksLayout from "@/views/layouts/VSboooksLayout.vue";
 import { Permission } from "@/permissions";
 import AclManager from "@/AclManager";
 
@@ -73,7 +73,7 @@ const router = new VueRouter({
         },
         {
           path: "/",
-          component: Vue.component("PcpUserLayout", PcpLayout),
+          component: Vue.component("VSboooksLayout", VSboooksLayout),
           children: [
             {
               path: "/articles",
