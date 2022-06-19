@@ -1,0 +1,346 @@
+{
+  "No title": "Sans titre",
+  "distributionsError": {
+    "distributionNotAvailable": "Cette liste de distribution existe déjà."
+  },
+  "global": {
+    "help": {
+      "systemField": "Champs système généré de manière automatique.\nEn cas de doute sur la valeur saisie, veuillez la faire valider par le support. \n"
+    },
+    "logout": "Déconexion",
+    "back": "Retour",
+    "on": "sur",
+    "cancel": "Annuler",
+    "openNewWindow": "Ouvrir en taille réelle",
+    "days": {
+      "friday": "vendredi",
+      "monday": "lundi",
+      "saturday": "samedi ",
+      "sunday": "dimanche",
+      "thursday": "jeudi",
+      "tuesday": "mardi",
+      "wednesday": "mercredi"
+    },
+    "delete": "Supprimer",
+    "disable": "Désactiver",
+    "enable": "Réactiver",
+    "months": {
+      "april": "avril",
+      "august": "août",
+      "december": "décembre",
+      "february": "février",
+      "january": "janvier",
+      "july": "juillet",
+      "june": "juin",
+      "mars": "mars",
+      "may": "mai",
+      "november": "novembre",
+      "october": "octobre",
+      "september": "septembre"
+    },
+    "next": "Suivant",
+    "no": "non",
+    "noData": "Il n'y a pas de données disponibles.",
+    "pleaseWait": "Veuillez patienter",
+    "save": "Enregistrer",
+    "yes": "oui"
+  },
+  "languages": {
+    "french": "Français",
+    "german": "Allemand"
+  },
+  "layoutVSbooks": {
+    "footer": {
+      "proposedBy": "Proposé par"
+    },
+    "menu": {
+      "emailGroups": "Gestion des groupes d'email",
+      "webTemplates": "Templates de sites WEB",
+      "mailTemplates": "Templates d'emails",
+      "campaigns": "Campagnes de phishing",
+      "campaignResult": "Résultat de la campagne de phishing"
+    },
+    "pages": {
+      "campaigns": {
+        "searchBar": "Recherche",
+        "columns": {
+          "name": "Nom",
+          "status": "Statut",
+          "statusValues": {
+            "CAMPAIGN_CREATE": "En attente de démarrage",
+            "CAMPAIGN_START": "En cours",
+            "CAMPAIGN_STOP": "Arrêté"
+          },
+          "webTemplate": "Template de site WEB",
+          "mailTemplate": "Template de mail",
+          "emailGroup": "Groupe d'emails",
+          "creator": "Créateur",
+          "date": "Dernière modification",
+          "saveData": "Enregistrement des données"
+        },
+        "buttonsHead": {
+          "add": "Créer une campagne de phishing",
+          "edit": "Modifier la campagne de phishing",
+          "result": "Résultat la campagne de phishing",
+          "stop": "Stopper la campagne de phishing",
+          "start": "Démarrer la campagne de phishing",
+          "delete": "Supprimer la campagne de phishing"
+        },
+        "stopModal": {
+          "confirm": "Voulez vous vraiment stopper la campagne",
+          "confirmInfo": "Si vous stoppez la campagne, plus aucune données ne sera enregistrés mais il sera toujours possible de voir les données déjà existantes",
+          "stopButton": "Stopper"
+        },
+        "errors": {
+          "add": "Une erreur est survenu lors de l'ajout de la campagne de phishing",
+          "edit": "Une erreur est survenu lors de la modification de la campagne de phishing",
+          "stop": "Une erreur est survenu lors de l'arrêt de la campagne de phishing",
+          "delete": "Une erreur est survenu lors de la suppression de la campagne de phishing"
+        },
+        "success": {
+          "add": "L'ajout de la campagne de phishing a été réalisé avec succès",
+          "delete": "La suppression de la campagne de phishing a été réalisé avec succès"
+        },
+        "addOrEditModal": {
+          "name": "Nom",
+          "previewNewWindow": "Preview dans un nouvel onglet",
+          "subject": "Sujet du mail",
+          "saveData": "Enregistrer les données envoyés",
+          "mailDisplayName": "Nom d'affichage dans le email",
+          "mailDisplayNameInfo": "Ce nom ne change pas l'adresse email mais le nom d'affichage de l'adresse email",
+          "infoSaveData": "Les 3 premières lettres du nom d'utilisateur et du mot de passe seront enregistrés"
+        },
+        "startModal": {
+          "confirm": "Voulez vous vraiment démarrer le campagne",
+          "buttonConfirm": "Démarrer"
+        },
+        "deleteModal": {
+          "confirm": "Voulez vous vraiment supprimer la campagne"
+        }
+      },
+      "campaignResult": {
+        "charts": {
+          "emailSent": "Email envoyé",
+          "emailOpened": "Email ouvert",
+          "createCampaign": "Création campagne",
+          "clickedLink": "Lien cliqué",
+          "dataSend": "Donnée envoyée"
+        },
+        "buttonsHead": {
+          "backToList": "Retour à la liste",
+          "export": "Exporter",
+          "refresh": "Rafraîchir"
+        },
+        "timeline": "Timeline de",
+        "error": {
+          "error": "Une erreur est survenu lors de la récupération des données",
+          "authorized": "Vous n'êtes pas autorisés à regarder les statistiques de cette campagne"
+        }
+      },
+      "loginPage": {
+        "emptyFieldsLogin": "Veuillez remplir votre nom d'utilisateur et / ou mot de passe",
+        "password": "Mot de passe",
+        "user": "Utilisateur",
+        "username": "Nom d'utilisateur"
+      },
+      "emailGroups": {
+        "searchBar": "Recherche",
+        "buttonsHead": {
+          "add": "Ajouter un groupe d'email",
+          "edit": "Modifier le groupe d'email",
+          "delete": "Supprimer le groupe d'email",
+          "showMemberOf": "Membres du groupe d'email"
+        },
+        "columns": {
+          "name": "Nom",
+          "number": "Nombre d'utilisateurs"
+        },
+        "addOrEditModal": {
+          "name": "Nom du groupe",
+          "firstname": "Prénom",
+          "lastname": "Nom",
+          "email": "Email",
+          "addButton": "Ajouter",
+          "upload": "Importer un fichier CSV",
+          "uploadInfo": "Les entêtes du fichiers sont à mettre dans cette ordre: EMAIL, FIRSTNAME, LASTNAME",
+          "emptyTargetUsers": "Aucun utilisateur cible n'a été ajouté"
+        },
+        "success": {
+          "add": "L'ajout du groupe d'email a été effectué avec succès",
+          "edit": "La modification du groupe d'email a été effectué avec succès",
+          "delete": "La suppression du groupe d'email a été effectué avec succès"
+        },
+        "deleteModal": {
+          "confirm": "Voulez-vous vraiment supprimer le groupe d'email"
+        },
+        "errors": {
+          "fileExtension": "Vous ne pouvez upload que des fichiers CSV",
+          "fileEmpty": "Veuillez upload un fichier CSV",
+          "fileError": "Une erreur est survenu lors de l'imporation du fichier CSV",
+          "targetUserListEmpty": "La liste des utilisateurs cibles ne peut pas être vide",
+          "add": "Une erreur est survenue lors de la création du groupe d'email",
+          "edit": "Une erreur est survenue lors de la modification du groupe d'email",
+          "delete": "Une erreur est survenue lors de la suppression du groupe d'email"
+        }
+      },
+      "webTemplates": {
+        "searchBar": "Recherche",
+        "buttonsHead": {
+          "add": "Ajouter un template",
+          "edit": "Modifier le template",
+          "preview": "Preview du template",
+          "delete": "Supprimer le template"
+        },
+        "addOrEditModal": {
+          "name": "Nom du template",
+          "redirectUrl": "URL de redirection",
+          "importSite": "Importer une site WEB",
+          "previewButton": "Preview",
+          "importSiteButton": "Importer",
+          "templateCode": "Code du template (HTML)",
+          "templateCodeInfoRequired": "Il est important d'indiquer le bouton sur lequel l'utilisateur va cliquer. Pour cela, veuillez y insérer [SEND_DATA] à la place du texte du bouton correspondant",
+          "textButtonReplace": "Remplacer le texte du bouton souhaité",
+          "urlExample": "https://exemple.ch/ma-page/autre-page"
+        },
+        "deleteModal": {
+          "confirm": "Voulez vous vraiment supprimer le template sélectionné"
+        },
+        "previewModal": {
+          "title": "Prévisualisation du site WEB"
+        },
+        "errors": {
+          "urlFormat": "Le format de l'URL n'est pas valide. Veuillez le modifier",
+          "name": "Veuillez insérer un nom de template correcte",
+          "template": "Veuillez saisir le code du template",
+          "error": "Une erreur est survenue lors de la création du template de site WEB",
+          "delete": "Une erreur est survenue lors de la suppression du template de site WEB",
+          "templateSendData": "Veuillez insérer [SEND_DATA] dans le code de votre template",
+          "textReplace": "Veuillez insérer le texte qui remplacera la valeur du bouton",
+          "urlNotFound": "Cet URL est inatteignable",
+          "templatePreview": "Ce template ne peut pas être affiché"
+        },
+        "success": {
+          "importFromUrl": "L'importation a partir de l'URL a été accomplis avec succès",
+          "add": "Le nouveau template de site WEB a été ajouté avec succès",
+          "edit": "Le template de site WEB a été modifié avec succès",
+          "delete": "Le template de site WEB a été supprimé avec succès"
+        },
+        "columns": {
+          "name": "Nom",
+          "buttonRedirect": "Bouton d'envoi de données"
+        }
+      },
+      "mailTemplates": {
+        "searchBar": "Recherche",
+        "buttonsHead": {
+          "add": "Ajouter un template",
+          "edit": "Modifier le template",
+          "preview": "Preview du template",
+          "delete": "Supprimer le template"
+        },
+        "addOrEditModal": {
+          "name": "Nom du template",
+          "subject": "Sujet de l'email",
+          "redirectUrl": "URL de redirection",
+          "importSite": "Importer un email",
+          "previewButton": "Preview",
+          "importSiteButton": "Importer",
+          "templateCode": "Code du template du mail (HTML)",
+          "templateCodeInfoRequired": "Il est important d'indiquer l'endroit dans lequelle vous voulez faire la redirection vers votre site WEB. Pour cela, veuillez y insérer [LINKED] dans l'attribut HTML correspondant",
+          "templateCodeInfoExample": "<a class=\"button reset-password\" href=\"[LINKED]\">Réinitialiser votre mot de passe</a>",
+          "templateCodeInfo": "Si vous souhaitez remplacer l'email, le nom ainsi que le prénom dans ce mail, il faudrait l'indiquer avec les valeurs suivantes. [EMAIL], [LASTNAME], [FIRSTNAME] Ainsi, lors de l'envoie des mails aux cibles, le programme remplacera automatiquement ces valeurs.",
+          "infoImportMail": "Ce champs est à remplir avec le code source d'un email. Vous pouvez trouver cette information directement sur un email reçu. Il devrait y avoir un bouton \"Afficher l'original\" ou \"Afficher le détail du message\""
+        },
+        "deleteModal": {
+          "confirm": "Voulez vous vraiment supprimer le template sélectionné"
+        },
+        "previewModal": {
+          "title": "Prévisualisation du site WEB",
+          "info": "Il est possible que certains textes se soient mal importés. Veuillez y prêter attention et les corriger via le prochain champs"
+        },
+        "errors": {
+          "subject": "Veuillez insérer un sujet d'email correcte",
+          "name": "Veuillez insérer un nom de template correcte",
+          "template": "Veuillez saisir le code du template",
+          "templateLinked": "La valeur [LINKED] est obligatoire. Des informations au fond de la page vous indiquant comment l'utiliser y sont inscrit",
+          "import": "Veuillez d'abord remplir le champ d'import",
+          "error": "Une erreur est survenue lors de la création du template d'email",
+          "delete": "Une erreur est survenue lors de la suppression du template d'email",
+          "urlNotFound": "Cet URL est inatteignable"
+        },
+        "success": {
+          "add": "Le nouveau template d'email a été ajouté avec succès",
+          "edit": "Le template d'email a été modifié avec succès",
+          "delete": "Le template d'email a été supprimé avec succès",
+          "import": "L'import de l'email a été effectué avec succès"
+        },
+        "columns": {
+          "name": "Nom",
+          "subject": "Sujet de l'email"
+        }
+      },
+      "home": {
+        "title": "Accueil"
+      }
+    }
+  },
+  "userErrors": {
+    "disconnectError": "Une erreur est survenue en essayant de se déconnecter.",
+    "errorEmptyField": "Veuillez remplir le champ.",
+    "errorsFromBackend": {
+      "UserIsSamAccountNameAvailable": "Le samAccountName de l'utilisateur est déjà utilisé.",
+      "UserIsSamAccountValid": "Le samAccountName de l'utilisateur n'est pas valide.",
+      "accountDisabled": "Votre compte est actuellement désactivé, veuillez contacter le support pour le réactiver.",
+      "contactSupport": "Si le message persiste, veuillez contacter le support.",
+      "expiredSession": "Votre session a expiré, veuillez vous reconnecter pour continuer.",
+      "functionNotAllowed": "Vous n'etes pas autorisé a accéder à cette fonctionalité.",
+      "hasValidDn": "Ce DN n'est pas valide.",
+      "hasValidSiteExtension": "L'extension du site n'est pas valide.",
+      "hasValidSiteLanguage": "La langue n'est pas valide.",
+      "isArray": "isArray",
+      "isBoolean": "IsBoolean.",
+      "isDate": "La valeur n'est pas une date.",
+      "isDnAvailable": "Le DN est déjà utilisé.",
+      "isEmail": "Le format de l'email n'est pas correct.",
+      "isEmailAvailable": "L'email est déjà utilisé.",
+      "isNotEmpty": "Ce champ ne peut pas être vide.",
+      "isPasswordEnoughComplex": "Le mot de passe doit contenir au minimum 12 caractères dont au minimum une lettre minuscule, une lettre majuscule, un chiffre et un caractère spécial.",
+      "isSamAccountValid": "Le samAccountName n'est pas valide.",
+      "isSameAccountNameAvailable": "Le samAccountName est déjà utilisé.",
+      "isString": "Ce champ ne peut contenir qu'une chaîne de caractères.",
+      "isUpnAvailable": "L'UPN est déjà utilisé.",
+      "isUpnValid": "L'UPN n'est pas valide. Veuillez ne pas utiliser d'accents, d'espaces ou des caractères spéciaux.",
+      "isValidDn": "Le DN n'est pas valide.",
+      "isValidSiteKey": "La clé du site n'est pas valide.",
+      "ldapError": "Erreur lors de la création de l'utilisateur dans LDAP.",
+      "ldapPasswordError": "Le mot de passe ne doit pas ressembler à vos données personnelles.",
+      "ldapValidationError": "Une erreur de validation est survenue, veuillez  contrôler la validité de vos champs.",
+      "maxLength": "Veuillez réduire le nombre de caractères.",
+      "noAccess": "Votre compte n'est pas autorisé à se connecter à l'intranet.",
+      "noRoleAllowed": "Votre compte ne possède aucun rôle permettant l'accès à cet intranet.",
+      "passwordUpdateFailed": "Le mot de passe n'a pas pu être mis à jour correctement.",
+      "serverNotResponding": "Le serveur n'est actuellement pas disponible, veuillez réssayer plus tard ou contacter le support si le problème persiste.",
+      "unknownError": "Un problème inconnu est survenu, veuillez contacter le support si le problème persiste.",
+      "wrongAccess": "Les identifiants saisis semblent incorrects."
+    },
+    "fieldError": {
+      "emailDuplicate": "Certains emails sont à double.",
+      "emailIncorrectDomain": "Les noms de domaines disponibles sont : ",
+      "emailIncorrectFormat": "L'email doit contenir un format d'email valide.",
+      "emailNotAvailable": "Cet e-mail est déjà utilisé.",
+      "errorEmailFields": "Les champs des emails ne sont pas correctement remplis.",
+      "errorEmailFieldsExisting": "Un des emails est déjà utilisé.",
+      "errorEmptyLanguage": "La langue doit être sélectionnée.",
+      "isPasswordIdentical": "Les mots de passes doivent être identiques.",
+      "lessThanOne": "Cette valeur doit être supérieure ou égale à 1.",
+      "maxLength20": "Veuillez ne pas saisir plus de 20 caractères.",
+      "numberHasDecimals": "Cette valeur doit être un nombre entier.",
+      "passwordNotComplex": "Le mot de passe doit contenir au minimum une lettre minuscule, une lettre majuscule, un chiffre et un caractère spécial.",
+      "passwordTooShort": "Le mot de passe doit contenir au minimum 12 caractères.",
+      "samAccountNameNotAvailable": "Ce samAccountName est déjà utilisé.",
+      "saveFormsError": "Les champs ne sont pas correctement remplis.",
+      "saveFormsErrorEmails": "Les emails ne sont pas correctement remplis.",
+      "upnNotAvailable": "Cet email principal (UPN) est déjà utilisé."
+    }
+  }
+}

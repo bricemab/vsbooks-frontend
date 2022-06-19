@@ -1,0 +1,534 @@
+{
+  "distributionsError": {
+    "distributionNotAvailable": "Diese Verteilerliste existiert bereits."
+  },
+  "global": {
+    "accountDisabled": "Account deaktiviert",
+    "back": "Zurück",
+    "cancel": "Abbrechen",
+    "days": {
+      "friday": "Freitag",
+      "monday": "Montag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag",
+      "thursday": "Donnerstag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch"
+    },
+    "delete": "Löschen",
+    "disable": "Deaktivieren",
+    "enable": "Reaktivieren",
+    "months": {
+      "april": "April",
+      "august": "August",
+      "december": "Dezember",
+      "february": "Februar",
+      "january": "Januar",
+      "july": "Juli",
+      "june": "Juni",
+      "mars": "März",
+      "may": "Mai",
+      "november": "November",
+      "october": "Oktober",
+      "september": "September"
+    },
+    "next": "Weiter",
+    "no": "Nein",
+    "noData": "Es sind keine Daten verfügbar",
+    "pleaseWait": "Bitte warten",
+    "save": "Speichern",
+    "yes": "Ja"
+  },
+  "groupsErrors": {
+    "labelNotAvailable": "Dieser Gruppenname existiert bereits."
+  },
+  "languages": {
+    "french": "Französisch",
+    "german": "Deutsch"
+  },
+  "layoutVSbooks": {
+    "footer": {
+      "proposedBy": "Erstellt von"
+    },
+    "menu": {
+      "activity-logs": "Benutzeraktivitäten",
+      "global-stats": "Allgemeine Statistiken",
+      "groups": "Gruppen",
+      "home": "Home",
+      "listDistribution": "Verteilerliste",
+      "resources": "Ressourcen",
+      "system": "System",
+      "uploadUsers": "Benutzer importieren",
+      "users": "Benutzer",
+      "worker": "Verwaltung der Instanzen"
+    },
+    "pages": {
+      "activitylogs": {
+        "actions": "Aktion",
+        "actionsCode": {
+          "distributions": {
+            "distribution-add": "Hinzufügen einer Verteilergruppe",
+            "distribution-member-add": "Benutzer hinzufügen",
+            "distribution-member-remove": "Entfernung eines Benutzers",
+            "distribution-modify": "Bearbeiten der Verteilerliste",
+            "distribution-set-new-default-email": "Ändern der Standard-E-Mail",
+            "distributions-delete": "Löschen einer Verteilerliste"
+          },
+          "resources": {
+            "resource-add": "Hinzufügen einer Resource",
+            "resource-delete": "Löschen einer Ressource",
+            "resource-member-add": "Benutzer hinzufügen",
+            "resource-member-remove": "Entfernung eines Benutzers",
+            "resource-modify": "Bearbeiten einer Resource",
+            "resource-set-new-default-email": "Ändern der Standard-E-Mail"
+          },
+          "user": {
+            "user-add": "Benutzer hinzufügen",
+            "user-add-mailbox": "Hinzufügen einer Mailbox",
+            "user-add-to-group": "Hinzufügen eines Benutzers zu einer Gruppe",
+            "user-delegation-behalf-of-add": "Hinzufügen einer Delegation 'Für das Konto von'",
+            "user-delegation-behalf-of-remove": "Entfernen einer Delegation 'Für das Konto von'",
+            "user-delegation-full-access-add": "Hinzufügen einer Delegation 'Voller Zugriff'",
+            "user-delegation-full-access-remove": "Löschen einer Delegation 'Voller Zugriff'",
+            "user-delegation-send-as-add": "Hinzufügen einer Delegation 'Senden als'",
+            "user-delegation-send-as-remove": "Entfernen einer Delegation 'Senden als'",
+            "user-delete": "Benutzer löschen",
+            "user-modify": "Benutzer ändern",
+            "user-remove-from-group": "Benutzer aus einer Gruppe entfernen",
+            "user-remove-mailbox": "Mailbox löschen",
+            "user-set-new-default-email": "Ändern der Standard-E-Mail",
+            "user-set-new-password": "Passwort ändern"
+          }
+        },
+        "activitySearch": "Suche nach Aktivität",
+        "allActions": "Alle Aktionen",
+        "basicActions": "Hauptaktionen",
+        "categories": "Kategorien",
+        "dateSearch": "Suche nach Datum",
+        "displayLogs": {
+          "distribution": {
+            "distribution-add": "{userLogin} hat die Verteilerliste {distribution} hinzugefügt.",
+            "distribution-delete": "{userLogin} hat die Verteilerliste {distribution} gelöscht.",
+            "distribution-member-add": "{userLogin} hat Benutzer {user} zur Verteilerliste {distribution} hinzugefügt.",
+            "distribution-member-remove": "{userLogin} hat Benutzer {user} von Verteilerliste {distribution} gelöscht.",
+            "distribution-modify": "{userLogin} hat die Verteilerliste {distribution} geändert.",
+            "distribution-set-new-default-email": "{userLogin} hat eine neue Standard-E-Mail für die Verteilerliste {distribution} definiert."
+          },
+          "resource": {
+            "resource-add": "{userLogin} hat die Ressource {resource} hinzugefügt.",
+            "resource-delete": "{userLogin} hat die Ressource {resource} gelöscht.",
+            "resource-member-add": "{userLogin} hat Benutzer {user} zur Ressource {resource} hinzugefügt.",
+            "resource-member-remove": "{userLogin} hat Benutzer {user} von Ressource {resource} gelöscht.",
+            "resource-modify": "{userLogin} hat die Ressource {resource} geändert.",
+            "resource-set-new-default-email": "{userLogin} hat eine neue Standard-E-Mail für die Ressource {resource} definiert."
+          },
+          "user": {
+            "user-add": "{userLogin} hat Benutzer {user} hinzugefügt.",
+            "user-add-mailbox": "{userLogin} hat die Mailbox für Benutzer {user} aktiviert.",
+            "user-add-to-group": "{userLogin} hat Benutzer {user} zur Verteilerliste {distribution} hinzugefügt.",
+            "user-delegation-behalf-of-add": "{userLogin} hat die Delegierungen für Benutzer {user} geändert, indem er für {userDelegate} 'Im Auftrag von' hinzugefügt hat.",
+            "user-delegation-behalf-of-remove": "{userLogin} hat die Delegierungen für Benutzer {user} geändert, indem er für {userDelegate} 'Im Auftrag von' gelöscht hat.",
+            "user-delegation-full-access-add": "{userLogin} hat die Delegierungen für Benutzer {user} geändert, indem er für {userDelegate} 'Vollzugriff' hinzugefügt hat.",
+            "user-delegation-full-access-remove": "{userLogin} hat die Delegierungen für Benutzer {user} geändert, indem er für {userDelegate} 'Vollzugriff' entfernt hat.",
+            "user-delegation-send-as-add": "{userLogin} hat die Delegierungen für Benutzer {user} geändert, indem er für {userDelegate} 'Senden als' hinzugefügt hat.",
+            "user-delegation-send-as-remove": "{userLogin} hat die Delegierungen für Benutzer {user} geändert, indem er für {userDelegate} 'Senden als' entfernt hat.",
+            "user-delete": "{userLogin} hat Benutzer {user} gelöscht.",
+            "user-disable": "{userLogin} hat Benutzer {user} deaktiviert.",
+            "user-enable": "{} Userlogin reaktiviert Benutzer {user}.",
+            "user-modify": "{userLogin} hat Benutzer {user} geändert.",
+            "user-remove-from-group": "{userLogin} hat Benutzer {user} aus Verteilerliste {distribution} entfernt.",
+            "user-remove-mailbox": "{userLogin} hat das Postfach für Benutzer {user} deaktiviert.",
+            "user-set-new-default-email": "{userLogin} hat eine neue Standard-E-Mail für Benutzer {user} definiert.",
+            "user-set-new-password": "{userLogin} hat das Passwort für {user} geändert."
+          }
+        },
+        "distributions": "Verteilerliste",
+        "noAction": "Keine Aktion",
+        "noActionsItems": "Es gibt keine Aktionen",
+        "noDate": "Kein Datum",
+        "noFilter": "Keine Filter",
+        "noLogs": "Es gibt keine Benutzeraktivitäten mit diesen Kriterien.",
+        "period": "Zeitraum",
+        "resources": "Ressourcen",
+        "selectCategories": "Wählen Sie eine Kategorie",
+        "selectDate": "Wählen Sie ein Datum",
+        "title": "Benutzeraktivitäten",
+        "users": "Benutzer"
+      },
+      "distributions": {
+        "add": "Eine Verteilerliste hinzufügen",
+        "addDistributionNotSuccess": "Hinzufügen fehlgeschlagen. Die Felder wurden nicht korrekt ausgefüllt.",
+        "addDistributionSuccess": "Hinzufügen der Verteilerliste und ihrer Mitglieder war erfolgreich. Die Synchronisationszeit kann jedoch eine Weile dauern.",
+        "addMembers": "Mitglieder hinzufügen zu",
+        "addModal": {
+          "addDistributionError": "Die Verteilerliste konnte nicht hinzugefügt werden. Der Server ist derzeit nicht verfügbar.",
+          "addDistributionSuccess": "Hinzufügen der Verteilerliste und ihrer Mitglieder war erfolgreich. Die Synchronisationszeit kann jedoch eine Weile dauern.",
+          "errorLDAPAddingUserMembers": "Beim Hinzufügen eines oder mehrerer Mitglieder ist ein LDAP-Fehler aufgetreten.",
+          "errorWhileAddingUserMembers": "Beim Hinzufügen eines oder mehrerer Mitglieder ist ein Fehler aufgetreten.",
+          "invalidLdapObject": "Die/der Benutzer sind ungültig."
+        },
+        "deleteAll": "Ausgewählte Verteilerlisten löschen",
+        "deleteAllConfirm": "Möchten Sie die ausgewählten Verteilerlisten wirklich löschen?",
+        "deleteConfirm": "Möchten Sie diese Verteilerlisten wirklich löschen?",
+        "deleteDistribution": "Verteilerliste löschen",
+        "deleteDistributionSuccess": "Die Verteilerliste wurde gelöscht.",
+        "deleteModal": {
+          "deleteAllDistributionSuccess": "Die Verteilerlisten wurden gelöscht.",
+          "deleteDistribution": "Die Verteilerliste wurde gelöscht.",
+          "deleteDistributionFailed": "Die Verteilerliste konnte nicht gelöscht werden. Der Server ist derzeit nicht verfügbar.",
+          "deleteDistributionSuccess": "Die Verteilerliste wurde gelöscht.",
+          "deleteDistributionsFailed": "Verteilerlisten konnten nicht gelöscht werden. Der Server ist derzeit nicht verfügbar.",
+          "errorWhileDeleteOne": "Diese Verteilerliste konnte nicht gelöscht werden (LDAP-Fehler) - Bitte wenden Sie sich an den Support.",
+          "errorWhileSetup": "Diese Verteilerliste konnte nicht gelöscht werden - bitte wenden Sie sich an den Support.",
+          "noItemWasFound": "Diese Verteilerliste konnte nicht gelöscht werden - Sie existiert nicht."
+        },
+        "details": {
+          "cn": "CN",
+          "columns": {
+            "addressMail": "Emailadresse(n)",
+            "displayName": "Angezeigter Name",
+            "distributionName": "Name der Verteilerliste",
+            "email": "Email(s)",
+            "nbrMembers": "Mitglieder",
+            "prefix": "Site-Präfix"
+          },
+          "displayName": "Angezeigter Name",
+          "distributionName": "Name der Verteilerliste",
+          "emails": "Email(s)",
+          "label": "Label",
+          "mail": "Email",
+          "members": "Mitglieder",
+          "nameCN": "Name vom CN",
+          "nameSamAccount": "Name vom SamAccount",
+          "prefix": "Site-Präfix",
+          "samAccount": "samAccountName",
+          "upn": "UPN"
+        },
+        "edit": "Bearbeiten Verteilerliste",
+        "editMembersSaveError": "Die Mitglieder können nicht geändert werden. Der Server ist derzeit nicht verfügbar.",
+        "errorWhileLoadingData": "Die Daten können nicht geladen werden. Der Server ist derzeit nicht verfügbar.",
+        "manageMembers": "Managing Associate Mitglieder",
+        "modifyDistribution": "Verteilerliste bearbeiten",
+        "moreInfos": "Mehr Informationen",
+        "noSelectedDistribution": "Bitte wählen Sie eine Verteilerliste.",
+        "noSelectedDistributions": "Bitte wählen Sie mehrere Verteilerlisten.",
+        "searchBar": "Suche",
+        "title": "Mailing-Listen",
+        "updateDistributionFailed": "Ein Problem trat während der Aktualisierung der Besetzung.",
+        "updateDistributionSuccess": "Die Darsteller wurden erfolgreich aktualisiert.",
+        "updateModal": {
+          "updateFailed": "Es trat ein Problem bei der Aktualisierung der Verteilerliste.",
+          "updateSuccess": "Die Verteilerliste wurde erfolgreich geändert."
+        },
+        "userLinkedTo": "Nutzer in Bezug auf die Liste (Mitglieder)",
+        "userNotLinkedTo": "Benutzer ohne Bezug zur Liste"
+      },
+      "globalStats": {
+        "columns": {
+          "nbrActiveUser": "Anzahl der aktiven Benutzer",
+          "nbrDisableUser": "Zahl der deaktivierten Benutzer",
+          "site": "Name des Sites",
+          "totalUser": "Benutzer insgesamt"
+        },
+        "errorWhileLoadingData": "Die Daten können nicht geladen werden. Der Server ist derzeit nicht verfügbar.",
+        "searchBar": "Suche",
+        "title": "Allgemeine Statistiken"
+      },
+      "groups": {
+        "add": "Gruppe hinzufügen",
+        "deleteAll": "Löschen ausgewählte Gruppen",
+        "deleteAllConfirm": "Sind Sie sicher, dass Sie diese Gruppen löschen?",
+        "deleteConfirm": "Sind Sie sicher, dass Sie diese Gruppe löschen?",
+        "deleteGroup": "Gruppe löschen",
+        "details": {
+          "isGlobal": "weltweit",
+          "is_system_group": "Systemgruppe",
+          "label": "Gruppenbezeichnung",
+          "systemDenomination": "Name System"
+        },
+        "edit": "Gruppe bearbeiten",
+        "manageMembers": "Managing Associate Mitglieder",
+        "modifyGroup": "Gruppe bearbeiten",
+        "searchBar": "Suche",
+        "title": "Verwalten von Gruppen",
+        "userLinkedTo": "Benutzer im Zusammenhang Gruppe (Mitglieder)",
+        "userNotLinkedTo": "Benutzer, die nicht zu der Gruppe im Zusammenhang"
+      },
+      "home": {
+        "title": "Zuhause"
+      },
+      "resources": {
+        "accessRights": "Zugriffsverwaltung",
+        "add": "Ressource hinzufügen",
+        "addModal": {
+          "addResourceError": "Die Ressource kann nicht hinzugefügt werden. Der Server ist derzeit nicht verfügbar.",
+          "addResourceSuccess": "Die Ressource wurde hinzugefügt. Die Synchronisationszeit kann einige Sekunden dauern.",
+          "dnExisting": "Diese Ressource ist bereits vorhanden. Um es einzigartig, bitte seine SamAccountName ändern und seine CN in Form. Diese beiden Felder werden für das System verwendet.",
+          "errorLDAPAddingDelegateMembers": "Ein LDAP-Fehler aufgetreten ist, während ein / Teilnehmer (n) hinzufügen.",
+          "errorWhileAddingDelegateMembers": "Ein Fehler aufgetreten ist, während ein / Teilnehmer (n) hinzugefügt wird.",
+          "invalidLdapObject": "Der / user (s) sind ungültig.",
+          "selectMinimumOneMember": "Bitte wählen Sie mindestens ein Mitglied annehmen oder ablehnen Buchungsanfragen.",
+          "upn": "Die E-Mail-Adresse standardmäßig bereits vorhanden ist. Bitte ändern Sie es einzigartig zu machen."
+        },
+        "delete": "Ressource löschen",
+        "deleteAll": "Löschen Ressourcen",
+        "deleteModal": {
+          "deleteAllConfirm": "Sind Sie sicher, dass Sie diese Ressourcen löschen?",
+          "deleteAllResourceSuccess": "Ressourcen wurden erfolgreich gelöscht.",
+          "deleteConfirm": "Sind Sie sicher, dass Sie diese Ressource löschen?",
+          "deleteResourceFailed": "Die Ressource kann nicht gelöscht werden. Der Server ist derzeit nicht verfügbar.",
+          "deleteResourceSuccess": "Die Ressource wurde erfolgreich gelöscht.",
+          "deleteResourcesFailed": "Die Ressource kann nicht gelöscht werden. Der Server ist derzeit nicht verfügbar.",
+          "errorWhileDeleteOne": "Diese Ressource kann nicht gelöscht (LDAP-Fehler) werden - bitte kontaktieren Sie Unterstützung.",
+          "errorWhileSetup": "Diese Ressource kann nicht gelöscht werden - bitte kontaktieren Sie Unterstützung.",
+          "noItemWasFound": "Diese Ressource kann nicht gelöscht werden - es ist nicht vorhanden."
+        },
+        "details": {
+          "alias": "Alias",
+          "capacity": "Kapazität",
+          "capacityLabel": "Anzahl der Personen im Raum oder kann die Geräte zur gleichen Zeit verwenden",
+          "capacityOptional": "Fähigkeit (Optional)",
+          "cn": "CN",
+          "displayName": "Angezeigter Name",
+          "email": "Email",
+          "emails": "E-Mail (s)",
+          "equipment": "Ausrüstung",
+          "labelEmail": "Beschriften der E-Mail",
+          "managementMode": "Anfragen für Buchungen",
+          "maxDays": "Maximale Zeit (in Tagen), in dem Sie eine Ressource im Voraus buchen. Es ist nicht möglich ein Datum größer als die Anzahl der Tage angegeben zu reservieren.",
+          "maxHours": "Maximale Anzahl der Stunden für jede Buchung",
+          "name": "Resource Name",
+          "nameCN": "CN-Name",
+          "nameSamAccount": "Nom du SamAccount",
+          "prefix": "Präfix-Site",
+          "room": "Zimmer",
+          "samAccount": "samAccountName",
+          "type": "Art"
+        },
+        "edit": "Ressource bearbeiten",
+        "editDelegateMembers": {
+          "membersDelegate": "Delegierte Benutzer",
+          "membersNotDelegate": "Nicht-Delegierte Benutzer",
+          "updateFailed": "Es trat ein Problem bei der Aktualisierung der Delegierten."
+        },
+        "editDelegateUsers": "verwalten Delegierten",
+        "errorWhileLoadingData": "Die Daten können nicht geladen werden. Der Server ist derzeit nicht verfügbar.",
+        "managementModeAuto": "Akzeptieren oder automatisch Buchungsanfragen abzulehnen.",
+        "managementModeDelegate": "Wählen Sie die Delegierten können annehmen oder ablehnen Buchungsanfragen. (Nächste Seite)",
+        "noSelectedResource": "Bitte wählen Sie eine Ressource.",
+        "noSelectedResources": "Bitte wählen Sie mehrere Ressourcen.",
+        "permissions": "Gestion des permissions",
+        "searchBar": "Suche",
+        "title": "Resourcenmanagement",
+        "updateModal": {
+          "updateFailed": "Es trat ein Problem bei der Aktualisierung der Ressource.",
+          "updateFailedDelegate": "Es trat ein Problem bei der Aktualisierung der Delegierten der Ressource.",
+          "updateSuccess": "Die Aktualisierung der Ressource erfolgreich war.",
+          "updateSuccessDelegate": "Die Delegierten der Ressourcen wurden erfolgreich aktualisiert."
+        },
+        "userLinkedTo": "Benutzer, die Zugriff auf die Ressource haben",
+        "userNotLinkedTo": "Benutzer ohne Zugriff auf die Ressource"
+      },
+      "studentsImport": {
+        "title": "Benutzer importieren"
+      },
+      "users": {
+        "add": "Nutzer hinzufügen",
+        "addAdditionalEmail": "Fügen Sie eine weitere E-Mail",
+        "addModal": {
+          "addUserError": "Der Benutzer kann nicht hinzugefügt werden. Der Server ist derzeit nicht verfügbar.",
+          "addUserSuccess": "Der Benutzer wurde hinzugefügt. Die Synchronisationszeit kann einige Sekunden dauern.",
+          "errorWhileLoadingData": "Die Daten können nicht geladen werden. Der Server ist derzeit nicht verfügbar."
+        },
+        "changePasswordModal": {
+          "changePasswordErrorBackend": "Das Kennwort kann nicht geändert werden. Der Server ist derzeit nicht verfügbar.",
+          "confirmPassword": "Neues Passwort bestätigen",
+          "modifyPasswordOf": "Ändern des Passworts:",
+          "newPassword": "Neues Kennwort",
+          "savePasswordSuccess": "Das Passwort wurde erfolgreich geändert."
+        },
+        "columns": {
+          "displayName": "Anzeigename",
+          "email": "E-Mails",
+          "firstName": "Vorname",
+          "lastName": "Nachname",
+          "upn": "UPN"
+        },
+        "delegationsModal": {
+          "editDelegationError": "Die Delegationen konnte nicht geladen werden. Der Server ist derzeit nicht verfügbar.",
+          "editDelegationFor": "Delegationen für",
+          "editDelegationSaveError": "Die Delegationen können nicht geändert werden. Der Server ist derzeit nicht verfügbar.",
+          "editDelegationsSuccess": "Änderungen Delegationen wurden erfolgreich gespeichert. Die Synchronisationszeit kann einige Sekunden dauern.",
+          "fullAccess": "voller Zugriff",
+          "infoAddDelegations": "Um Delegationen hinzufügen, suchen Sie bitte Benutzer mithilfe der Suchleiste.",
+          "sendAs": "Wie",
+          "sendOnBehalf": "Im Auftrag von",
+          "tooltipActive": "Delegation wird hinzugefügt",
+          "tooltipNonActive": "Delegation wird gelöscht"
+        },
+        "deleteAdditionalEmail": "Entfernen Sie zusätzliche E-Mail",
+        "deleteAll": "Ausgewählte Benutzer entfernen",
+        "deleteAllConfirm": "Sind Sie sicher, dass Sie diese Benutzer löschen wollen?",
+        "deleteConfirm": "Sind Sie sicher, dass Sie diesen Benutzer entfernen?",
+        "deleteModal": {
+          "deleteUserFailed": "Der Benutzer kann nicht gelöscht werden. Der Server ist derzeit nicht verfügbar.",
+          "deleteUserInvalid": "Dieser Benutzer kann nicht gelöscht werden - Die Argumente sind nicht gültig.",
+          "deleteUserNotFound": "Dieser Benutzer kann nicht gelöscht werden - es ist nicht vorhanden.",
+          "deleteUserSuccess": "Der Benutzer wurde erfolgreich gelöscht.",
+          "deleteUsersFailed": "Benutzer, die nicht entfernt werden können. Der Server ist derzeit nicht verfügbar.",
+          "deleteUsersNotFound": "Der Benutzer kann nicht gelöscht werden - sie existieren nicht.",
+          "deleteUsersSuccess": "Die Anwender wurden erfolgreich gelöscht.",
+          "ldapErrorOneUser": "Ein Benutzer kann nicht gelöscht (LDAP-Fehler) werden - bitte kontaktieren Sie Unterstützung.",
+          "ldapErrorSeveralUsers": "Benutzer können nicht entfernt (LDAP-Fehler) werden - bitte kontaktieren Sie Unterstützung."
+        },
+        "deleteUser": "Benutzer löschen",
+        "details": {
+          "cn": "CN",
+          "displayName": "Anzeigename",
+          "distributions": "Distributions",
+          "email": "Email",
+          "emailLabel": "E-Mail (s)",
+          "emails": "E-Mails",
+          "firstName": "Vorname",
+          "groups": "Gruppen",
+          "languages": "Sprachen",
+          "lastName": "Nachname",
+          "password": "Passwort",
+          "removeEmail": "Entfernen",
+          "samAccountName": "samAccountName",
+          "upn": "E-Mail-Haupt (UPN)",
+          "upnDomainExtension": "Erweiterungsbereich",
+          "upnName": "Nachname"
+        },
+        "disableAll": "Deaktivieren Sie die ausgewählten Benutzer",
+        "disableAllConfirm": "Sind Sie sicher, dass Sie diese Benutzer deaktivieren?",
+        "disableConfirm": "Sind Sie sicher, dass Sie diesen Benutzer sperren?",
+        "disableModal": {
+          "disableUserFailed": "Der Benutzer kann nicht deaktiviert werden. Der Server ist derzeit nicht verfügbar.",
+          "disableUserInvalid": "Dieser Benutzer kann nicht ausgeschaltet werden - Die Argumente sind nicht gültig.",
+          "disableUserNotFound": "Dieser Benutzer kann nicht ausgeschaltet werden - es ist nicht vorhanden.",
+          "disableUserSuccess": "Der Benutzer wurde erfolgreich deaktiviert.",
+          "disableUsersFailed": "Benutzer können nicht deaktiviert werden. Der Server ist derzeit nicht verfügbar.",
+          "disableUsersNotFound": "Der Benutzer kann nicht ausgeschaltet werden - sie existieren nicht.",
+          "disableUsersSuccess": "Die Anwender wurden erfolgreich deaktiviert.",
+          "ldapErrorOneUser": "Ein Benutzer kann nicht ausgeschaltet (LDAP-Fehler) werden - bitte kontaktieren Sie Unterstützung.",
+          "ldapErrorSeveralUsers": "Benutzer können nicht ausgeschaltet (LDAP-Fehler) werden - bitte kontaktieren Sie Unterstützung."
+        },
+        "disableUser": "Benutzer deaktivieren",
+        "editDelegation": "verwalten Delegationen",
+        "editModal": {
+          "editUserError": "Der Benutzer kann nicht geändert werden. Der Server ist derzeit nicht verfügbar.",
+          "editUserSuccess": "Der Benutzer wurde erfolgreich geändert.",
+          "useAsDefaultEmail": "Verwendung als Standard-E-Mail"
+        },
+        "enableConfirm": "Sind Sie sicher, dass Sie diesen Benutzer reaktivieren?",
+        "enableModal": {
+          "enableUserFailed": "Der Benutzer kann nicht deaktiviert werden. Der Server ist derzeit nicht verfügbar.",
+          "enableUserInvalid": "Dieser Benutzer kann nicht ausgeschaltet werden - Die Argumente sind nicht gültig.",
+          "enableUserNotFound": "Dieser Benutzer kann nicht ausgeschaltet werden - es ist nicht vorhanden.",
+          "enableUserSuccess": "Der Benutzer wurde erfolgreich deaktiviert.",
+          "enableUsersFailed": "Benutzer können nicht deaktiviert werden. Der Server ist derzeit nicht verfügbar.",
+          "enableUsersNotFound": "Der Benutzer kann nicht ausgeschaltet werden - sie existieren nicht.",
+          "enableUsersSuccess": "Die Anwender wurden erfolgreich deaktiviert.",
+          "ldapErrorOneUser": "Ein Benutzer kann nicht ausgeschaltet (LDAP-Fehler) werden - bitte kontaktieren Sie Unterstützung.",
+          "ldapErrorSeveralUsers": "Benutzer können nicht ausgeschaltet (LDAP-Fehler) werden - bitte kontaktieren Sie Unterstützung."
+        },
+        "enableUser": "Reaktivieren Benutzer",
+        "errorWhileLoadingData": "Die Daten können nicht geladen werden. Der Server ist derzeit nicht verfügbar.",
+        "modifyClasses": "Bearbeiten Klasse",
+        "modifyGroups": "Gruppen bearbeiten",
+        "modifyPassword": "Änder das Passwort",
+        "modifyUser": "Benutzer bearbeiten",
+        "moreInfos": "Mehr Informationen",
+        "noGroupsItems": "keine Gruppen",
+        "noSelectedUser": "Bitte wählen Sie einen Benutzer.",
+        "noSelectedUsers": "Bitte wählen Sie mehrere Benutzer.",
+        "searchBar": "Suche",
+        "stats": "Statistik",
+        "download": "Herunterladen",
+        "statsModal": {
+          "nbrActiveUser": "Anzahl der aktiven Benutzer",
+          "nbrDisableUser": "Zahl der deaktivierten Benutzer",
+          "totalUser": "Benutzer insgesamt"
+        },
+        "title": "Benutzerverwaltung"
+      }
+    }
+  },
+  "noLayout": {
+    "pages": {
+      "loginPage": {
+        "cannotGetList": "Ein Fehler ist aufgetreten, wenn die Liste das Abrufen",
+        "emptyFieldsLogin": "Bitte füllen Sie Ihren Benutzernamen und / oder Passwort",
+        "entityNotFound": "Ein oder mehrere DN sind nicht gültig DN des LDAP-Servers",
+        "failedAuthenticateToken": "Ihre Sitzung ist ungültig, bitte Reconnect",
+        "invalidCredentials": "ungültige Anmeldeinformationen",
+        "labelPassword": "Passwort",
+        "labelUser": "Benutzer",
+        "requiredCredentials": "bitte fülle alle Felder aus",
+        "sessionExpired": "Ihre Sitzung ist abgelaufen Login erneut bitte.",
+        "titlePage": "Anmeldung",
+        "unknownError": "Ein Fehler ist aufgetreten, bitte versuchen Sie es später noch einmal"
+      }
+    }
+  },
+  "userErrors": {
+    "disconnectError": "Fehler beim zu trennen versucht.",
+    "errorEmptyField": "Bitte füllen Sie das Feld.",
+    "errorsFromBackend": {
+      "UserIsSamAccountNameAvailable": "Der samAccountName Benutzer bereits verwendet wird.",
+      "UserIsSamAccountValid": "Der samAccountName Benutzer ist ungültig.",
+      "accountDisabled": "Ihr Konto ist derzeit deaktiviert, bitte Kontakt Unterstützung zu reaktivieren.",
+      "contactSupport": "Wenn die Meldung weiterhin angezeigt, wenden Sie sich Unterstützung.",
+      "expiredSession": "Ihre Sitzung ist abgelaufen, bitte melden Sie sich erneut an, um fortzufahren.",
+      "functionNotAllowed": "Sie sind nicht für den Zugriff auf diese Funktion zugelassen.",
+      "hasValidDn": "Dieser DN ist ungültig.",
+      "hasValidSiteExtension": "Die Site-Erweiterung ist nicht gültig.",
+      "hasValidSiteLanguage": "Die Sprache ist nicht gültig.",
+      "isArray": "isArray",
+      "isBoolean": "IsBoolean.",
+      "isDate": "Der Wert ist kein Datum.",
+      "isDnAvailable": "Der DN wird bereits verwendet.",
+      "isEmail": "Das Format der E-Mail ist nicht korrekt.",
+      "isEmailAvailable": "E-Mail ist bereits im Einsatz.",
+      "isNotEmpty": "Dieses Feld kann nicht leer sein.",
+      "isPasswordEnoughComplex": "Das Passwort muss mindestens 12 Zeichen enthalten, darunter mindestens einen Kleinbuchstaben, einen Großbuchstaben, eine Zahl und ein Sonderzeichen.",
+      "isSamAccountValid": "Die samAccountName ist ungültig.",
+      "isSameAccountNameAvailable": "Die samAccountName wird bereits verwendet.",
+      "isString": "Dieses Feld kann nur eine Zeichenfolge enthalten.",
+      "isUpnAvailable": "Der UPN wird bereits verwendet.",
+      "isUpnValid": "Der UPN ist nicht gültig. Bitte verwenden Sie keine Akzente, Leer- oder Sonderzeichen.",
+      "isValidDn": "Der DN ist ungültig.",
+      "isValidSiteKey": "Der Site-Schlüssel ist nicht gültig.",
+      "ldapError": "Fehler Benutzer in LDAP zu schaffen.",
+      "ldapPasswordError": "Das Passwort sollte nicht Ihre persönlichen Daten ähneln.",
+      "ldapValidationError": "Ein Validierungsfehler aufgetreten, bitte die Gültigkeit Ihrer Felder überprüfen.",
+      "maxLength": "Bitte reduzieren Sie die Anzahl der Zeichen.",
+      "noAccess": "Ihr Konto ist nicht auf das Application verbinden autorisiert.",
+      "noRoleAllowed": "Ihr Konto hat keine Rolle Zugriff auf dieses Application ermöglicht.",
+      "passwordUpdateFailed": "Das Passwort nicht richtig aktualisiert.",
+      "serverNotResponding": "Der Server ist derzeit nicht verfügbar, bitte versuchen Sie es später noch einmal oder kontaktieren Sie den Support, wenn das Problem weiterhin besteht.",
+      "unknownError": "Ein unbekannter Fehler ist aufgetreten, den Support kontaktieren, wenn das Problem weiterhin besteht bitte.",
+      "wrongAccess": "Das eingegebene Passwort scheint nicht korrekt."
+    },
+    "fieldError": {
+      "emailDuplicate": "Einige E-Mails sind doppelt.",
+      "emailIncorrectDomain": "verfügbare Domain-Namen sind:",
+      "emailIncorrectFormat": "Die E-Mail muss ein gültiges E-Mail-Format enthalten.",
+      "emailNotAvailable": "Diese E-Mail-Adresse wird bereits verwendet.",
+      "errorEmailFields": "Felder E-Mails sind nicht richtig ausgefüllt.",
+      "errorEmailFieldsExisting": "Eine E-Mail von bereits verwendet wird.",
+      "errorEmptyLanguage": "Die Sprache muss ausgewählt werden.",
+      "isPasswordIdentical": "Die Passwörter müssen identisch sein.",
+      "lessThanOne": "Dieser Wert muss größer oder gleich 1 ist.",
+      "maxLength20": "Bitte geben Sie nicht mehr als 20 Zeichen.",
+      "numberHasDecimals": "Dieser Wert muss eine ganze Zahl sein.",
+      "passwordNotComplex": "Das Passwort muss mindestens einen Kleinbuchstaben enthalten, einen Großbuchstaben, eine Zahl und ein Sonderzeichen.",
+      "passwordTooShort": "Das Passwort muss mindestens 12 Zeichen lang sein.",
+      "samAccountNameNotAvailable": "Diese samAccountName wird bereits verwendet.",
+      "saveFormsError": "Die Felder sind nicht richtig gefüllt.",
+      "saveFormsErrorEmails": "Die E-Mails sind nicht richtig gefüllt.",
+      "upnNotAvailable": "Diese primäre E-Mail (UPN) wird bereits verwendet."
+    }
+  }
+}
